@@ -227,6 +227,8 @@ a {
 .swiper-container, .w {
     height: calc(100vh - 0px);
 }
+.swiper-container:{ height:100%; }
 html{
 	background-color: #F0F0F0;
+	margin-top: 14vw;
 }

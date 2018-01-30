@@ -19,10 +19,10 @@ refreshEnd= false;
 				refreshText=swiper.$el.find('.text-pu');
 				var moveY = this.translate/2 + 'px';
 				$('.text-pu').css('transform', 'translateY('+ moveY+')');
-				if (this.translate<50 && this.translate>10) {
+				if (this.translate<70 && this.translate>10) {
 					this.$el.find('.text-pu').html('下拉刷新');
 				}
-				if (this.translate>=50) {
+				if (this.translate>=70) {
 					this.$el.find('.text-pu').html('释放刷新');
 				}
 			},
@@ -45,12 +45,15 @@ refreshEnd= false;
 					setTimeout(function(){//模仿AJAX
 						$(".refresh").hide();
 						// swiper.removeAllSlides();
-						for(i=0;i<20;i++){
-						swiper.appendSlide('<div class="swiper-slide">New Slide'+(i+1)+'</div>');
+						// for(i=0;i<20;i++){
+						// swiper.appendSlide('<div class="swiper-slide">New Slide'+(i+1)+'</div>');
+						// }
 						refreshText.html('');
+						// $('html,body').animate({scrollTop: '0px'}, 800);
 						refreshEnd=true;
 						swiper.allowTouchMove=true;
-						}
+						// 重新计算高度
+						swiper.update();
 					},1000)
 					
                 }
