@@ -1,94 +1,129 @@
 
 <template>
   <div class="content">
-    <div class="a">
-      标题
-    </div>
-    <div class="tab">
-      <a class="active" href="javascript:;">tab1</a>
-      <a href="javascript:;">tab2</a>
-      <a href="javascript:;">tab3</a>
-    </div>
-    <div class="swiper-container">
-      <div class="refreshtip">
-        下拉可以刷新
-      </div>
-      <div class="swiper-wrapper w">
-        <div class="swiper-slide d">
-          <div class="init-loading list-group-item text-center" style="display: none;">
-            下拉可以刷新
+    <div class="find_nav">
+      <div class="find_nav_left">
+          <div class="find_nav_list" id="pagenavi1">
+              <ul>
+          
+                  <li><a href="#" class="active">全部</a></li>
+                  <li><a href="#">健康医疗</a></li>
+                  <li><a href="#">旅游出行</a></li>
+                  <li><a href="#">关爱宝贝</a></li>
+                  <li><a href="#">家庭财产</a></li>
+                  <li class="sideline"></li>
+              </ul>
+
           </div>
-          <div class="swiper-container2">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide list-group">
-                <div class="list-group-item">
-                  列表1
-                </div>
-                <div class="list-group-item">
-                  列表
-                </div>
-                <div class="list-group-item">
-                  列表
-                </div>
-                <div class="list-group-item">
-                  列表
-                </div>
-                <div class="list-group-item">
-                  列表
-                </div>
-                <div class="list-group-item">
-                  列表
-                </div>
-              </div>
-              <div class="swiper-slide list-group">
-                <div class="list-group-item">
-                  列表2
-                </div>
-                <div class="list-group-item">
-                  列表
-                </div>
-                <div class="list-group-item">
-                  列表
-                </div>
-                <div class="list-group-item">
-                  列表
-                </div>
-                <div class="list-group-item">
-                  列表
-                </div>
-                <div class="list-group-item">
-                  列表
-                </div>
-              </div>
-              <div class="swiper-slide list-group">
-                <div class="list-group-item">
-                  列表3
-                </div>
-                <div class="list-group-item">
-                  列表
-                </div>
-                <div class="list-group-item">
-                  列表
-                </div>
-                <div class="list-group-item">
-                  列表
-                </div>
-                <div class="list-group-item">
-                  列表
-                </div>
-                <div class="list-group-item">
-                  列表
-                </div>
+      </div>
+    </div>
+    <div id="slider1" class="swipe">
+      <ul class="box01_list">
+        <li class="li_list">
+          <div class="swiper-container">
+            <div class="refresh" style="display: none">
+            <div class="pull-up">
+              <div class="text-pu shopbx">下拉刷新</div>
+              <div class="">
+                <img id="shopId" src="../assets/picture/shop.gif" style="display: none">
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="loadtip">
-        上拉加载更多
-      </div>
-      <div class="swiper-scrollbar">
-      </div>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 4</div>
+              <div class="swiper-slide">Slide 5</div>
+              <div class="swiper-slide">Slide 6</div>
+              <div class="swiper-slide">Slide 7</div>
+              <div class="swiper-slide">Slide 8</div>
+              <div class="swiper-slide">Slide 9</div>
+              <div class="swiper-slide">Slide 10</div>
+              <div class="swiper-slide">Slide 11</div>
+              <div class="swiper-slide">Slide 12</div>
+              <div class="swiper-slide">Slide 13</div>
+              <div class="swiper-slide">Slide 14</div>
+              <div class="swiper-slide">Slide 15</div>
+              <div class="swiper-slide">Slide 16</div>
+              <div class="swiper-slide">Slide 17</div>
+              <div class="swiper-slide">Slide 18</div>
+              <div class="swiper-slide">Slide 19</div>
+              <div class="swiper-slide">Slide 20</div>
+            </div>
+          </div>
+        </li>
+        <li class="li_list" >
+          <div class="swiper-container">
+            <div class="refresh" style="display: none">
+            <div class="pull-up">
+              <div class="text-pu shopbx">下拉刷新</div>
+              <div class="">
+                <img id="shopId" src="../assets/picture/shop.gif" style="display: none">
+              </div>
+            </div>
+          </div>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">菅双鹤 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 4</div>
+              <div class="swiper-slide">Slide 5</div>
+              <div class="swiper-slide">Slide 6</div>
+              <div class="swiper-slide">Slide 7</div>
+              <div class="swiper-slide">Slide 8</div>
+              <div class="swiper-slide">Slide 9</div>
+              <div class="swiper-slide">Slide 10</div>
+              <div class="swiper-slide">Slide 11</div>
+              <div class="swiper-slide">Slide 12</div>
+              <div class="swiper-slide">Slide 13</div>
+              <div class="swiper-slide">Slide 14</div>
+              <div class="swiper-slide">Slide 15</div>
+              <div class="swiper-slide">Slide 16</div>
+              <div class="swiper-slide">Slide 17</div>
+              <div class="swiper-slide">Slide 18</div>
+              <div class="swiper-slide">Slide 19</div>
+              <div class="swiper-slide">Slide 20</div>
+            </div>
+          </div>
+        </li>
+        <li class="li_list">
+          <div class="swiper-container">
+            <div class="refresh" style="display: none">
+            <div class="pull-up">
+              <div class="text-pu shopbx">下拉刷新</div>
+              <div class="">
+                <img id="shopId" src="../assets/picture/shop.gif" style="display: none">
+              </div>
+            </div>
+          </div>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">安云 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 4</div>
+              <div class="swiper-slide">Slide 5</div>
+              <div class="swiper-slide">Slide 6</div>
+              <div class="swiper-slide">Slide 7</div>
+              <div class="swiper-slide">Slide 8</div>
+              <div class="swiper-slide">Slide 9</div>
+              <div class="swiper-slide">Slide 10</div>
+              <div class="swiper-slide">Slide 11</div>
+              <div class="swiper-slide">Slide 12</div>
+              <div class="swiper-slide">Slide 13</div>
+              <div class="swiper-slide">Slide 14</div>
+              <div class="swiper-slide">Slide 15</div>
+              <div class="swiper-slide">Slide 16</div>
+              <div class="swiper-slide">Slide 17</div>
+              <div class="swiper-slide">Slide 18</div>
+              <div class="swiper-slide">Slide 19</div>
+              <div class="swiper-slide">Slide 20</div>
+            </div>
+          </div>
+        </li>
+        <li class="li_list" style="background:#4053b1">4</li>
+        <li class="li_list" style="background:#b14080">5</li>
+      </ul>
     </div>
   </div>
 </template>
@@ -111,132 +146,5 @@ export default {
 </script>
 <style>
 
-@import url("../assets/swiper-3.3.1.min.css");
-  html, body {
-  height: 100%;
-  font-family: "微软雅黑";
-}
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-a {
-  color: #428bca;
-  text-decoration: none;
-}
-
-a:hover,a:focus {
-  color: #2a6496;
-  text-decoration: underline;
-}
-
-a:focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
-}
-.swiper-container{
-  padding-top: 5vw;
-}
-.padd_40 {
-  padding-top: 80px;
-  background: #F5F5F5;
-  overflow-x: hidden;
-}
-
-.a {
-  text-align: center;
-  line-height: 40px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 10;
-  border-bottom: 1px #ccc solid;
-  background: #f50;
-  color: #fff;
-}
-
-.tab {
-  display: flex;
-  line-height: 40px;
-  position: fixed;
-  top: 40px;
-  width: 100%;
-  z-index: 10;
-  border-bottom: 1px #ccc solid;
-}
-
-.tab a {
-  width: 33.333333%;
-  background: #fff;
-  text-align: center;
-}
-
-.tab .active {
-  border-bottom: 1px #f50 solid;
-  color: #f50;
-}
-
-.panel {
-  margin: 0;
-}
-
-.refreshtip {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  margin: 10px 0;
-  text-align: center;
-  color: #999;
-}
-
-.swiper-container {
-  overflow: visible;
-}
-
-.loadtip {
-  display: block;
-  width: 100%;
-  line-height: 40px;
-  height: 40px;
-  text-align: center;
-  color: #999;
-  border-top: 1px solid #ddd;
-}
-
-.swiper-container, .w {
-  height: calc(100vh - 120px);
-}
-
-.swiper-slide {
-  height: auto;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.list-group {
-  padding-left: 0;
-  margin-bottom: 20px;
-}
-
-.list-group-item {
-  position: relative;
-  display: block;
-  padding: 10px 15px;
-  margin-bottom: -1px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-}
-
-.list-group-item:first-child {
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-}
+@import url("../assets/css/jsh.css");
 </style>
