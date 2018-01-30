@@ -175,6 +175,7 @@ a {
     font-size: 4.3vw;
     text-align: center;
     color: #666;
+    text-decoration:none;
 }
 .find_nav_cur a {
     color: #48a5f4 !important;
@@ -187,7 +188,7 @@ a {
     height: 2px;
     background-color: #48a5f4;
     left: 0;
-    top: 68px;
+    top: 13vw;
     pointer-events: none;
 }
 .li_list{ min-height:30px; font-size:20px; line-height:30px; color:#000; text-align:center}
@@ -231,4 +232,20 @@ a {
 html{
 	background-color: #F0F0F0;
 	margin-top: 14vw;
+}
+.totos{
+    position: fixed;
+    width: 40vw;
+    background-color: #333;
+    margin-left: 30vw;
+    margin-top: 3vw;
+    z-index: 88;
+    border-radius: 1vw;
+}
+.totos>p{
+    position: relative;
+    width: 100%;
+    font-size: 3vw;
+    line-height: 11vw;
+    color: #fff;
 }

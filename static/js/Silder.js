@@ -42,6 +42,7 @@ $(".find_nav_list").on('touchstart', function (e) {
     ty_left = parseInt($(this).css("left"));
 });
 $(".find_nav_list").on('touchmove', function (e) {
+    $(".sideline").css('color','bule')
     var touch2 = e.originalEvent.targetTouches[0];
     var x2 = touch2.pageX;
     var y2 = touch2.pageY;
@@ -63,7 +64,7 @@ for (n = 1; n < 9; n++) {
     var mslide = 'slider' + n;
     var mtitle = 'emtitle' + n;
     arrdiv = 'arrdiv' + n;
-    var as = document.getElementById(this.page).getElementsByTagName('a');
+    var as = document.getElementById(page).getElementsByTagName('a');
     var tt = new TouchSlider({
         id: mslide,
         'auto': '-1',

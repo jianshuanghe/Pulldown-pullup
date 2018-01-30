@@ -5,7 +5,6 @@
       <div class="find_nav_left">
           <div class="find_nav_list" id="pagenavi1">
               <ul>
-          
                   <li><a href="#" class="active">全部</a></li>
                   <li><a href="#">健康医疗</a></li>
                   <li><a href="#">旅游出行</a></li>
@@ -22,13 +21,18 @@
         <li class="li_list">
           <div class="swiper-container">
             <div class="refresh" style="display: none">
-            <div class="pull-up">
-              <div class="text-pu shopbx">下拉刷新</div>
-              <div class="">
-                <img id="shopId" src="../assets/picture/shop.gif" style="display: none">
+              <div class="pull-up">
+                <div class="text-pu shopbx">下拉刷新</div>
+                <div class="">
+                  <img id="shopId" src="../assets/picture/shop.gif" style="display: none">
+                </div>
               </div>
             </div>
-          </div>
+            <div class="totos" style="display:none">
+              <p class="tot-text">
+                已经没有最新数据了!
+              </p>
+            </div>
             <div class="swiper-wrapper">
               <div class="swiper-slide">Slide 1</div>
               <div class="swiper-slide">Slide 2</div>
@@ -78,13 +82,18 @@
         <li class="li_list" >
           <div class="swiper-container">
             <div class="refresh" style="display: none">
-            <div class="pull-up">
-              <div class="text-pu shopbx">下拉刷新</div>
-              <div class="">
-                <img id="shopId" src="../assets/picture/shop.gif" style="display: none">
+              <div class="pull-up">
+                <div class="text-pu shopbx">下拉刷新</div>
+                <div class="">
+                  <img id="shopId" src="../assets/picture/shop.gif" style="display: none">
+                </div>
               </div>
             </div>
-          </div>
+            <div class="totos" style="display:none">
+              <p class="tot-text">
+                已经没有最新数据了!
+              </p>
+            </div>
             <div class="swiper-wrapper">
               <div class="swiper-slide">菅双鹤 1</div>
               <div class="swiper-slide">Slide 2</div>
@@ -97,13 +106,18 @@
         <li class="li_list">
           <div class="swiper-container">
             <div class="refresh" style="display: none">
-            <div class="pull-up">
-              <div class="text-pu shopbx">下拉刷新</div>
-              <div class="">
-                <img id="shopId" src="../assets/picture/shop.gif" style="display: none">
+              <div class="pull-up">
+                <div class="text-pu shopbx">下拉刷新</div>
+                <div class="">
+                  <img id="shopId" src="../assets/picture/shop.gif" style="display: none">
+                </div>
               </div>
             </div>
-          </div>
+            <div class="totos" style="display:none">
+              <p class="tot-text">
+                已经没有最新数据了!
+              </p>
+            </div>
             <div class="swiper-wrapper">
               <div class="swiper-slide">安云 1</div>
               <div class="swiper-slide">Slide 2</div>

@@ -26,18 +26,21 @@ refreshEnd= false;
 					this.$el.find('.text-pu').html('释放刷新');
 				}
 			},
+			touchStart: function(){
+				$('html,body').animate({scrollTop: '0px'});
+			},
 			//下拉释放刷新
 			touchEnd: function(){
 				swiper=this
 				refreshText=swiper.$el.find('.text-pu')
-				if (this.translate<=100) {
+				if (this.translate<=70) {
 					this.$el.find('.text-pu').html('');
 					$(".refresh").hide();
 					refreshEnd=true;
 				}
-                if(this.translate>100){
+                if(this.translate>70){
 	                swiper.setTransition(this.params.speed);
-                    swiper.setTranslate(100);
+                    swiper.setTranslate(70);
 		            swiper.touchEventsData.isTouched=false;//跳过touchEnd事件后面的跳转(4.0.5)
 		            refreshText.html("<img  src="+ shopId + " >");
 		            swiper.allowTouchMove=false;
@@ -49,12 +52,18 @@ refreshEnd= false;
 						// swiper.appendSlide('<div class="swiper-slide">New Slide'+(i+1)+'</div>');
 						// }
 						refreshText.html('');
-						// $('html,body').animate({scrollTop: '0px'}, 800);
 						refreshEnd=true;
 						swiper.allowTouchMove=true;
 						// 重新计算高度
 						swiper.update();
+						// 设置数据刷新提示
+						totos = swiper.$el.find('.totos');
+						$(totos).show();
+						setTimeout(function(){
+							$(totos).hide();
+						},1000);
 					},1000)
+
 					
                 }
 				 
